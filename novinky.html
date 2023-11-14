@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Reality, poradna</title>
+</head>
+<body>
+    <!-- header starts -->
+    <header>
+        <div class="pseudo-header">
+            <div class="container">
+                <div class="pseudo-right-menu">
+                    <ul>
+                        <li><a href="realitne-kancelarie.html">Realitné kancelárie</a></li>
+                        <li><a href="#">NARKS</a></li>
+                        <li><a href="novinky.html">Magazin</a></li>
+                        <li><a href="#" class="search-ico">
+                            <form>
+                                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="text" placeholder="Číslo inzerátu" class="search-box">
+                                <!-- <button>Search button</button> -->
+                            </form>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <!-- header ends -->
+    <!-- main content and sections -->
+    <main>
+        <section class="banner ban-no">
+            <div class="container">
+                <div class="main-header main-head">
+                    <div class="logo">
+                        <img src="img/sklogo.png">
+                    </div>
+                    <div class="header-menu-right">
+                        <div class="menu-right">
+                            <ul>
+                                <li class="btn-tag"><a href="#"><span class="main-text">Uložené hľadania</span><span class="res-contet"><i class="fa-regular fa-bell"></i></span><span class="sup">0</span></a></li>
+                                <li class="btn-first"><a href="#exampleModalreg" data-bs-toggle="modal" data-bs-target="#exampleModalreg"><span>+</span>Pridať inzerát</a></li>
+                                <li class="btn-first btn-second"><a href="#exampleModalreg" data-bs-toggle="modal" data-bs-target="#exampleModalreg" ><span><i class="fa-regular fa-user"></i></span>Prihlásiť</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- *************************responsive menu -->
+                    <div class="responsive-menu">
+                        <div class="btn-tag"><i class="fa-regular fa-bell"></i></span><span class="sup">0</span></a></div>
+                        <div class="menu-btn sidebarbtn" >Menu &#9776;</div>
+                        <div id="mySidenav" class="sidenav">
+                            <a href="#" class="closebtn">&times;</a>
+                            <a href="#exampleModalreg" data-bs-toggle="modal" data-bs-target="#exampleModalreg"><span>+</span>Pridať inzerát</a>
+                            <a href="#exampleModalreg" data-bs-toggle="modal" data-bs-target="#exampleModalreg" ><span><i class="fa-regular fa-user"></i></span>Prihlásiť</a>
+                            <hr>
+                            <a href="#"><span><i class="fa-regular fa-bell"></i></span> Uložené hľadania<span class="sup">0</span></a>
+                            <hr>
+                            <a href="realitne-kancelarie.html">Realitné kancelárie</a>
+                            <a href="#">NARKS</a>
+                            <a href="novinky.html">Magazin</a>
+                            <form  class="search-response">
+                                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="text" placeholder="Číslo inzerátu" class="search-box">
+                            </form>
+                          </div>
+                    </div>
+                </div>
+                <div class="breadcrumb-wrap">
+                    <ul class="breadcrumb">
+                        <li><a href="#"class="col-active"><span><img src = "img/homelogo.png"></span>Reality.sk</a></li>
+                        <li><img src="img/arrow_breadcrumb.svg" alt=""></li>
+                        <li><a href="#">Magazín</a></li>
+                    </ul>
+                </div>
+            <div class="hr-page"><hr></div>
+            <div class = "menu-bar">
+                <div class="menu-bar-l">
+                    <ul>
+                        <li><a href="#">Odborné analýzy</a></li>
+                        <li><a href="#">Legislatíva</a></li>
+                        <li><a href="#">PR články</a></li>
+                        <li><a href="#">Zaujímavosti</a></li>
+                        <li><a href="#">Novostavby</a></li>
+                        <li><a href="#">Bývanie a rekreácia</a></li>
+                        <li><a href="#">Technológie a EKO riešenia</a></li>
+                        <li><a href="#">Všetky články</a></li>
+                        <li class="nav-item dropdown dropdown-des">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Poradne
+                            </a>
+                            <ul class="dropdown-menu drop-li" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Právna poradňa</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Daňová poradňa</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+                </div>
+
+                <div class="menu-bar-responsive">
+                    <button id="drop-btn"><i class="fa-solid fa-bars"></i> Kategórie článko</button>
+                    <ul class="menu">
+                        <li><a href="#">Odborné analýzy</a></li>
+                        <li><a href="#">Legislatíva</a></li>
+                        <li><a href="#">PR články</a></li>
+                        <li><a href="#">Zaujímavosti</a></li>
+                        <li><a href="#">Novostavby</a></li>
+                        <li><a href="#">Bývanie a rekreácia</a></li>
+                        <li><a href="#">Technológie a EKO riešenia</a></li>
+                        <li><a href="#">Všetky články</a></li>
+                        <li class="nav-item dropdown dropdown-des">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Poradne
+                            </a>
+                            <ul class="dropdown-menu drop-li" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Právna poradňa</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Daňová poradňa</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+                </div>
+
+                <div class="menu-bar-r"><i class="fa-solid fa-magnifying-glass"></i><input type="text" id="searchId" name="search" placeholder="Hľadať..."></div>
+           </div>
+        </section>
+        <!-- *****************magazine section******************* -->
+        <section class="main-magazin">
+            <div class="container">
+                <div class="magazine-title"><h2>Magazín o bývaní</h2></div>
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="magazin-img">
+                            <img src="img/maga1.jpg" alt="">
+                            <div class="img-tag">
+                                <div class="tag-top">13</div>
+                                <div class="tag-bottom">Feb</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="magazin-detail">
+                            <div class="pseudo-title">ZAUJÍMAVOSTI</div>
+                            <div class="magazine-title"><h2>Najočakávanejšie budovy roka 2023</h2></div>
+                            <div class="magazin-para">Aj tento rok budú vo svete dokončené ďalšie stavebné veľdiela. Mnohé z nich trpezlivo očakáva celosvetová architektonická verejnosť. Nechýbajú medzi nimi projekty z Ázie, z Európy aj zo zámoria.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mag-listing1 mag-lists">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/mag-card1.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">17</div>
+                                    <div class="tag-bottom">Feb</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">ZAUJÍMAVOSTI</div>
+                                <div class="magazin-title2"><a href="#">5 najväčších realitných transakcií amerických celebrít za rok 2022</a></div>
+                                <div class="magazin-para">
+                                    Hviezdy amerického biznisu a šoubiznisu sa vlani opäť buchli poriadne po vrecku. Za nové luxusné rezidencie
+                                     vyhodili ešte viac peňazí ako rok predtým. Najväčšie realitné transakcie amerických celebrít za rok 2022 sa 
+                                     počítajú v desiatkach miliónov dolárov
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/mag-card2.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">15</div>
+                                    <div class="tag-bottom">Feb</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">TECHNOLÓGIE A EKO RIEŠENIA</div>
+                                <div class="magazin-title2"><a href="#">Počet nových fotovoltických zariadení v ČR vlani vzrástol skoro 4-násobne</a></div>
+                                <div class="magazin-para">
+                                    Dopyt po fotovoltických zariadeniach stúpa rekordným tempom takmer v celej Európe. 
+                                    Výnimkou nie je ani susedná ČR, ktorá vlani zaznamenala ďalší výrazný nárast počtu nových pripojených zariadení. 
+                                    V porovnaní s rokom 2021 ich bolo na českých budovách nainštalovaných skoro 4-násobne viac.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/mag-card3.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">13</div>
+                                    <div class="tag-bottom">Feb</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">BÝVANIE A REKREÁCIA</div>
+                                <div class="magazin-title2"><a href="#">Tajomstvá nehnuteľností #14: Aj rodinné domy môžu mať genetické poruchy</a></div>
+                                <div class="magazin-para">
+                                    Pri výstavbe rodinného domu sa môže stať všeličo a niektoré chyby dokážu naozaj nahnevať. 
+                                    Krivé steny, prefukujúce okná, problémy s akustikou. To všetko, a ešte omnoho viac, je stále
+                                     nič oproti zanedbanému IGP. Čo táto skratka znamená a prečo 
+                                    ju radíme takpovediac ku „genetickým“ rizikovým faktorom si povieme v dnešnom článku
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="mag-listing2">
+            <div class="container">
+                <div class="left-title magazin-title2">Najčítanejšie v magazíne</div>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/mag-list2-1.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">08</div>
+                                    <div class="tag-bottom">DEC</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">NOVOSTAVBY</div>
+                                <div class="magazin-title2"><a href="#">Bývanie jedna báseň rastie v nitrianskom projekte Púpavy Hviezdoslav</a></div>
+                                <div class="magazin-para">
+                                    V novovznikajúcom rezidenčnom projekte Púpavy Hviezdoslav sa napĺňa ambícia priniesť do mesta 
+                                    pod Zoborom bývanie pre mladé rodiny, ktoré bude mať úroveň, na akú sme boli zvyknutí len pri 
+                                    luxusných projektoch. A to sa týka dispozícií bytov, ich vybavenia, ale aj použitých technológií.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/mag-list2-2.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">06</div>
+                                    <div class="tag-bottom">DEC</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">NOVOSTAVBY</div>
+                                <div class="magazin-title2"><a href="#">Piešťanský projekt Mojmírka láka domácich aj cezpoľných</a></div>
+                                <div class="magazin-para">
+                                    Bývať moderne v kúpeľnom meste s pokojným, no kozmopolitným koloritom, a byť pritom v 
+                                    pohodlnom dosahu Bratislavy, to je snom mnohých.  Niekedy sa sny môžu plniť – a dôkazom 
+                                    toho je aj rezidenčný projekt Mojmírka v Piešťanoch, ktorý je tesne pred dokončením.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/mag-list2-3.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">30</div>
+                                    <div class="tag-bottom">NOV</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">BÝVANIE A REKREÁCIA</div>
+                                <div class="magazin-title2"><a href="#">Dostupné bývanie v Bratislave? Ceny v Ovocných sadoch začínajú už na 109 tisíc eur</a></div>
+                                <div class="magazin-para">
+                                    Nedostatok bytov, rastúce ceny materiálov a stále prísnejšie podmienky na získanie hypotéky vyháňajú 
+                                    ceny nehnuteľností do výšok, ktoré si môže dovoliť málokto z nás. Aj v hlavnom meste však rastie projekt, 
+                                    ktorý ponúka kvalitné bývanie za rozumnú cenu. Po úspešnej prvej etape ponúka projekt Ovocné sady jedinečnú 
+                                    možnosť bývať výhodne a už do dvoch rokov.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/mag-list2-4.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">23</div>
+                                    <div class="tag-bottom">NOV</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">ZAUJÍMAVOSTI</div>
+                                <div class="magazin-title2"><a href="#">Ako si navodiť doma vianočnú atmosféru</a></div>
+                                <div class="magazin-para">
+                                    Rok čo rok prichádza mráz a s ním vianočné reklamy v televízií spolu s tematickým sortimentom v obchodoch. 
+                                    Asi nám dáte za pravdu, že na vytvorenie pravej vianočnej atmosféry to nestačí. Ponúkame vám pár tipov, ako 
+                                    si tento čas v roku vychutnať a priniesť si domov kúsok Vianoc.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mag-listing1">
+            <div class="container">
+                <div class="listing-title">
+                    <div class="magazin-title2">Odborné analýzy</div>
+                    <div class="right-title">Zobraziť všetky</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/odb1.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">16</div>
+                                    <div class="tag-bottom">JAN</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">ODBORNÉ ANALÝZY</div>
+                                <div class="magazin-title2"><a href="#">Rebríček miest s najvyššími nákladmi na život prvýkrát ovládol New York</a></div>
+                                <div class="magazin-para">
+                                    Poradie v rebríčku najdrahších metropol sa výrazne premiešalo. Kľúčové ekonomické a geopolitické 
+                                    udalosti tohto roka ovplyvnili náklady na život vo viacerých mestách sveta, čo viedlo k zmene aj 
+                                    na popredných priečkach. Tú vedúcu obsadil prvýkrát New York.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/odb2.png" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">12</div>
+                                    <div class="tag-bottom">JAN</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">ODBORNÉ ANALÝZY</div>
+                                <div class="magazin-title2"><a href="#">Ceny bytov aj v zime klesajú, pokles však neprekročil 10 %</a></div>
+                                <div class="magazin-para">
+                                    Na konci roku 2022 priemerná cena bytov na Slovensku už druhý štvrťrok poklesla vo všetkých regiónoch. 
+                                    Napriek niektorým prognózam je však pokles všade len v jednotkách percent a vo väčšine okresov sa k 
+                                    cenám z roku 2021 zďaleka nepriblížil. Potvrdzujú to aktuálne údaje z aplikácie Trhové reporty realitného 
+                                    portálu Nehnuteľnosti.sk.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/odb3.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">28</div>
+                                    <div class="tag-bottom">DEC</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">ODBORNÉ ANALÝZY</div>
+                                <div class="magazin-title2"><a href="#">TOP 20 najdrahších nákupných ulíc sveta</a></div>
+                                <div class="magazin-para">
+                                    Na tieto miesta nechoďte bez dozoru! Ale pozerať sa môžete.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="magazin-hr"><hr></div>
+            </div>
+
+            <!-- *****************************Legislatíva container -->
+            <div class="container">
+                <div class="listing-title">
+                    <div class="magazin-title2">Legislatíva</div>
+                    <div class="right-title">Zobraziť všetky</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/leg1.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">21</div>
+                                    <div class="tag-bottom">DEC</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">LEGISLATÍVA</div>
+                                <div class="magazin-title2"><a href="#">Hľadáte krátkodobý prenájom? Pozrite sa, pre koho je výhodný</a></div>
+                                <div class="magazin-para">
+                                    Krátkodobý prenájom je vhodný pre turistov, na študentské alebo pracovné pobyty, 
+                                    no prenajímateľ môže prenajímať svoju nehnuteľnosť aj na 2 roky podľa 
+                                    zákona o Krátkodobom nájme bytu. Jedná sa totiž o iný typ nájomnej zmluvy, ako pri dlhodobom prenájme.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/leg2.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">09</div>
+                                    <div class="tag-bottom">NOV</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">LEGISLATÍVA</div>
+                                <div class="magazin-title2"><a href="#">Kedy ste povinní umožniť susedovi vstúpiť na svoj pozemok?</a></div>
+                                <div class="magazin-para">
+                                    Rozhádaný sused vás nechce pustiť do dvora, aby ste udržiavali svoju fasádu, 
+                                    ktorá s ním susedí? Občiansky zákonník predpisuje prípady, kedy vás pustiť musí. JUDr. 
+                                    Veronika Michalíková z AKMV advokátskej kancelárie nám objasnila, ktoré to sú.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/leg3.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">10</div>
+                                    <div class="tag-bottom">OCT</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">LEGISLATÍVA</div>
+                                <div class="magazin-title2"><a href="#">Žiadosti o príspevok na obnovu rodinného domu bude možné podávať od 15. októbra</a></div>
+                                <div class="magazin-para">
+                                    Do spustenia jedného z najväčších dotačných programov súvisiacich s obnovou budov ostáva už len 
+                                    niekoľko dní. Majitelia starších rodinných domov budú môcť požiadať o príspevok na obnovu svojej 
+                                    nehnuteľnosti už v polovici októbra
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="magazin-hr"><hr></div>
+            </div>
+            <!-- *****************************PR clanky container -->
+            <div class="container">
+                <div class="listing-title">
+                    <div class="magazin-title2">PR články</div>
+                    <div class="right-title">Zobraziť všetky</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/cla1.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">08</div>
+                                    <div class="tag-bottom">DEC</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">NOVOSTAVBY</div>
+                                <div class="magazin-title2"><a href="#">Bývanie jedna báseň rastie v nitrianskom projekte Púpavy Hviezdoslav</a></div>
+                                <div class="magazin-para">
+                                    V novovznikajúcom rezidenčnom projekte Púpavy Hviezdoslav sa napĺňa ambícia priniesť do mesta pod Zoborom 
+                                    bývanie pre mladé rodiny, ktoré bude mať úroveň, na akú sme boli zvyknutí len pri luxusných projektoch. A 
+                                    to sa týka dispozícií bytov, ich vybavenia, ale aj použitých technológií.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/cla2.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">06</div>
+                                    <div class="tag-bottom">DEC</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">NOVOSTAVBY</div>
+                                <div class="magazin-title2"><a href="#">Piešťanský projekt Mojmírka láka domácich aj cezpoľných</a></div>
+                                <div class="magazin-para">
+                                    Bývať moderne v kúpeľnom meste s pokojným, no kozmopolitným koloritom, a byť pritom v pohodlnom 
+                                    dosahu Bratislavy, to je snom mnohých.  Niekedy sa sny môžu plniť – a dôkazom toho je aj rezidenčný 
+                                    projekt Mojmírka v Piešťanoch, ktorý je tesne pred dokončením.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/cla3.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">30</div>
+                                    <div class="tag-bottom">NOV</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">BÝVANIE A REKREÁCIA</div>
+                                <div class="magazin-title2"><a href="#">Dostupné bývanie v Bratislave? Ceny v Ovocných sadoch začínajú už na 109 tisíc eur</a></div>
+                                <div class="magazin-para">
+                                    Nedostatok bytov, rastúce ceny materiálov a stále prísnejšie podmienky na získanie hypotéky vyháňajú ceny nehnuteľností do 
+                                    výšok, ktoré si môže dovoliť málokto z nás. Aj v hlavnom meste však rastie projekt, ktorý ponúka kvalitné bývanie za 
+                                    rozumnú cenu. Po úspešnej prvej etape ponúka projekt Ovocné sady jedinečnú možnosť bývať výhodne a už do dvoch rokov.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="magazin-hr"><hr></div>
+            </div>
+            <!-- *****************************Zaujímavosti container -->
+            <div class="container">
+                <div class="listing-title">
+                    <div class="magazin-title2">Zaujímavosti</div>
+                    <div class="right-title">Zobraziť všetky</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/zau1.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">20</div>
+                                    <div class="tag-bottom">FEB</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">ZAUJÍMAVOSTI</div>
+                                <div class="magazin-title2"><a href="#">Najočakávanejšie budovy roka 2023</a></div>
+                                <div class="magazin-para">
+                                    Aj tento rok budú vo svete dokončené ďalšie stavebné veľdiela. Mnohé z nich trpezlivo 
+                                    očakáva celosvetová architektonická verejnosť. Nechýbajú medzi nimi projekty z Ázie, z 
+                                    Európy aj zo zámoria.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/zau2.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">17</div>
+                                    <div class="tag-bottom">FEB</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">ZAUJÍMAVOSTI</div>
+                                <div class="magazin-title2"><a href="#">5 najväčších realitných transakcií amerických celebrít za rok 2022</a></div>
+                                <div class="magazin-para">
+                                    Hviezdy amerického biznisu a šoubiznisu sa vlani opäť buchli poriadne po vrecku. Za nové luxusné 
+                                    rezidencie vyhodili ešte viac peňazí ako rok predtým. Najväčšie realitné transakcie amerických 
+                                    celebrít za rok 2022 sa počítajú v desiatkach
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/zau3.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">06</div>
+                                    <div class="tag-bottom">FEB</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">ZAUJÍMAVOSTI</div>
+                                <div class="magazin-title2"><a href="#">Atény budú mať najväčší európsky pobrežný park s klimatickou funkciou</a></div>
+                                <div class="magazin-para">                
+                                    V Grécku sa schyľuje k realizácii jedného z najväčších zelených projektov za posledné roky. 
+                                    Jeho výsledkom bude obrovský pobrežný park s viacúčelovým využitím. Autori projektu sľubujú, 
+                                    že pôjde o najväčší európsky park svojho druhu, navyše s klimatickou funkciou.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="magazin-hr"><hr></div>
+            </div>
+            <!-- *****************************Novostavby container -->
+            <div class="container">
+                <div class="listing-title">
+                    <div class="magazin-title2">Novostavby</div>
+                    <div class="right-title">Zobraziť všetky</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/nov1.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">01</div>
+                                    <div class="tag-bottom">FEB</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">NOVOSTAVBY</div>
+                                <div class="magazin-title2"><a href="#">Prvá holandská rezidenčná budova s certifikátom BREEAM Outstanding</a></div>
+                                <div class="magazin-para">
+                                    Čo sa doposiaľ nepodarilo žiadnej holandskej rezidenčnej budove, to napráva nedávno dokončená 
+                                    amsterdamská drevostavba. 21-poschodová stavba získala ako prvá obytná budova v Holandsku zelený 
+                                    certifikát BREEAM s najvyšším hodnotením Outstanding. Zároveň sa zaradila do širšieho zoznamu 
+                                    najvyšších drevostavieb na svete.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/zau2.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">16</div>
+                                    <div class="tag-bottom">DEC</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">NOVOSTAVBY</div>
+                                <div class="magazin-title2"><a href="#">Na Manhattane dokončili nový supervysoký mrakodrap</a></div>
+                                <div class="magazin-para">
+                                    Do kategórie supervysokých mrakodrapov sa ročne dostane iba zopár budov. Prestížny zoznam bol pred 
+                                    niekoľkými týždňami rozšírený o 
+                                    nový mrakodrap postavený v jednej z najlukratívnejších manhattanských štvrtí
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/zau3.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">14</div>
+                                    <div class="tag-bottom">DEC</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">NOVOSTAVBY</div>
+                                <div class="magazin-title2"><a href="#">Rezidenčné bývanie na brehu Kysuce s kvalitnou architektúrou</a></div>
+                                <div class="magazin-para">                
+                                    V Kysuckom Novom Meste sa podarilo vybudovať veľmi pekný projekt. Moderná mestská štvrť Kamence sa rozprestiera 
+                                    na nábreží rieky Kysuca a ponúka svojim obyvateľom širokú infraštruktúru na pár krokov od prírody. Jej kvalitu 
+                                    ocenili aj odborníci prestížnou cenou za architektúru CE ZA AR 2021.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="magazin-hr"><hr></div>
+            </div>
+            <!-- *****************************Bývanie a rekreácia -->
+            <div class="container">
+                <div class="listing-title">
+                    <div class="magazin-title2">Bývanie a rekreácia</div>
+                    <div class="right-title">Zobraziť všetky</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/nov1.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">13</div>
+                                    <div class="tag-bottom">FEB</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">BÝVANIE A REKREÁCIA</div>
+                                <div class="magazin-title2"><a href="#">Tajomstvá nehnuteľností #14: Aj rodinné domy môžu mať genetické poruchy</a></div>
+                                <div class="magazin-para">
+                                    Pri výstavbe rodinného domu sa môže stať všeličo a niektoré chyby dokážu naozaj nahnevať. Krivé steny, prefukujúce okná, problémy s akustikou. To všetko, a ešte omnoho viac, je stále nič oproti zanedbanému IGP. Čo táto skratka znamená a prečo ju radíme takpovediac ku „genetickým“ rizikovým faktorom si povieme v dnešnom článku.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/zau2.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">10</div>
+                                    <div class="tag-bottom">FEB</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">BÝVANIE A REKREÁCIA</div>
+                                <div class="magazin-title2"><a href="#">Balkón v paneláku: Inšpirácie na šikovné riešenia príjemného priestoru v exteriéri</a></div>
+                                <div class="magazin-para">
+                                    Teplomer zatiaľ ukazuje nízke hodnoty, ale keď začne slniečko viac hriať, treba byť pripravený otvoriť mu náruč. Ak máte balkón v byte, ste jedným z tých šťastných, ktorí si môžu užívať svoj súkromný priestor pod holým nebom. Chcete sa inšpirovať, ako? Prinášame vám niekoľko šikovných balkónových riešení pre malé priestory.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/zau3.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">03</div>
+                                    <div class="tag-bottom">FEB</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">BÝVANIE A REKREÁCIA</div>
+                                <div class="magazin-title2"><a href="#">17 najlepších montovaných domov sveta za rok 2022</a></div>
+                                <div class="magazin-para">                
+                                    Čas, keď boli montované domy považované za lacné a škaredé, je dávno preč. Dnes sa do nich pustili mnohí talentovaní architekti vo svete a priniesli krásny dizajn v ekologickom prevedení. Nazývajú sa aj modulárne a v drvivej väčšine sú to drevostavby. Pozrite si náš výber tých najzaujímavejších.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="magazin-hr"><hr></div>
+            </div>
+            <!-- *****************************Technológie a EKO riešenia -->
+            <div class="container">
+                <div class="listing-title">
+                    <div class="magazin-title2">Technológie a EKO riešenia</div>
+                    <div class="right-title">Zobraziť všetky</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/tech1.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">22</div>
+                                    <div class="tag-bottom">FEB</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">TECHNOLÓGIE A EKO RIEŠENIA</div>
+                                <div class="magazin-title2"><a href="#">Miniatúrna veterná turbína pre malé budovy</a></div>
+                                <div class="magazin-para">
+                                    Na medzinárodný trh s veternými turbínami smerujú ďalšie nové modely. Najnovším trendom je výroba malých zariadení schopných vyrábať elektrinu z veternej energie aj v mestskom prostredí. Zariadenie tohto typu predstavili aj vývojári z Holandska.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/tech2.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">15</div>
+                                    <div class="tag-bottom">FEB</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">TECHNOLÓGIE A EKO RIEŠENIA</div>
+                                <div class="magazin-title2"><a href="#">Počet nových fotovoltických zariadení v ČR vlani vzrástol skoro 4-násobne</a></div>
+                                <div class="magazin-para">
+                                    Dopyt po fotovoltických zariadeniach stúpa rekordným tempom takmer v celej Európe. Výnimkou nie je ani susedná ČR, ktorá vlani zaznamenala ďalší výrazný nárast počtu nových pripojených zariadení. V porovnaní s rokom 2021 ich bolo na českých budovách nainštalovaných skoro 4-násobne viac.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="magazin-img-card">
+                            <div class="magazin-img">
+                                <img src="img/tech3.jpg" alt="">
+                                <div class="img-tag">
+                                    <div class="tag-top">08</div>
+                                    <div class="tag-bottom">FEB</div>
+                                </div>
+                            </div>
+                            <div class="magazine-img-detail magazin-detail">
+                                <div class="pseudo-title">TECHNOLÓGIE A EKO RIEŠENIA</div>
+                                <div class="magazin-title2"><a href="#">Recyklovateľný 3D dom z drevených pilín</a></div>
+                                <div class="magazin-para">                
+                                    Zoznam materiálov vhodných na tlač 3D domov sa postupne rozrastá. Bežnej betónovej zmesi môžu konkurovať klasické piliny z dreva. Tie poslúžili ako dominantný stavebný prvok pri realizácii domu v jednom z amerických univerzitných kampusov.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="magazin-br"></div>
+            </div>
+        </section>
+    </main>
+    <!-- ******************footer begins -->
+    <!-- footer starts -->
+    <footer class="footer">
+        <section class="footer-top">
+            <div class="container">
+                <div class="footer-normal">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-3 col-xs-12 list-wrap-w">
+                            <div class="list-wrap">
+                                <div class="list-heading">Inzercia na Reality.sk</div>
+                                <ul>
+                                    <li><a href="Pravidlá.html">Podmienky používania</a></li>
+                                    <li><a href="img/download.pdf">Cookies</a></li>
+                                    <li><a href="zasady_ochrany.html">GDPR</a></li>
+                                    <li><a href="cennik.html">Cennik</a></li>
+                                    <li><a href="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Registrácia realitnej kancelárie</a></li>
+                                    <li><a href="registracia.html">Registrácia súkromní inzerenti</a></li>
+                                    <li><a href="#">Nastavenie súkromia</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2 col-sm-12 list-wrap-w">
+                            <div class="list-wrap">
+                                <div class="list-heading">Kontaktné údaje</div>
+                                <ul>
+                                    <li><a href="kontact.html">Kontakt</a></li>
+                                    <li><a href="https://www.narks.sk/">Info o NARKS</a></li>
+                                    <li><a href="https://www.narks.sk/clenovia/realitne-kancelarie/">Členovia NARKS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2 col-sm-12 list-wrap-w">
+                            <div class="list-wrap">
+                                <div class="list-heading">Poradne</div>
+                                <ul>
+                                    <li><a href="pravna-poradna.html">Právna poradňa</a></li>
+                                    <li><a href="Danova-poradna.html">Daňová poradňa</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-responsive">
+                    <div class="row">
+                        <div class="col-6 col-md-4 col-lg-3 list-wrap-r">
+                            <div class="tabs">
+                                <div class="tab">
+                                    <input type="checkbox" class="chck2" id="chck2">
+                                    <label class="tab-label" for="chck2">
+                                        Inzercia na Reality.sk
+                                    </label>
+                                    <div class="tab-content">
+                                        <ul>
+                                            <li><a href="Pravidlá.html">Podmienky používania</a></li>
+                                            <li><a href="img/download.pdf">Cookies</a></li>
+                                            <li><a href="zasady_ochrany.html">GDPR</a></li>
+                                            <li><a href="cennik.html">Cennik</a></li>
+                                            <li><a href="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Registrácia realitnej kancelárie</a></li>
+                                            <li><a href="registracia.html">Registrácia súkromní inzerenti</a></li>
+                                            <li><a href="#">Nastavenie súkromia</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 list-wrap-r">
+                            <div class="tabs">
+                                <div class="tab">
+                                    <input type="checkbox" class="chck2" id="chck3">
+                                    <label class="tab-label" for="chck3">
+                                        Kontaktné údaje
+                                    </label>
+                                    <div class="tab-content">
+                                        <ul>
+                                            <li><a href="kontact.html">Kontakt</a></li>
+                                            <li><a href="https://www.narks.sk/">Info o NARKS</a></li>
+                                            <li><a href="https://www.narks.sk/clenovia/realitne-kancelarie/">Členovia NARKS</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2 list-wrap-r">
+                            <div class="tabs">
+                                <div class="tab">
+                                    <input type="checkbox" class="chck2" id="chck4">
+                                    <label class="tab-label" for="chck4">
+                                        Poradne
+                                    </label>
+                                    <div class="tab-content list-wr">
+                                        <ul>
+                                            <li><a href="pravna-poradna.html">Právna poradňa</a></li>
+                                            <li><a href="Danova-poradna.html">Daňová poradňa</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-block-index">
+                    <div class="hr"><hr></div>
+                <div class="row">
+                    <div class="col-6 col-lg-3">
+                        <div class="list-block">
+                            <ul>
+                                <li><a href="#">Športové výsledky online</a></li>
+                                <li><a href="#">Ocenenie nehnuteľností</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="list-block">
+                            <ul>
+                                <li><a href="#">Lacné chalupy na predaj</a></li>
+                                <li><a href="#">Azet.sk</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="list-block">
+                            <ul>
+                                <li><a href="#">Recenzie IT zariadení</a></li>
+                                <li><a href="#">Trhové reporty</a></li>
+                                <li class="list-res"><a href="#">Nastavenie súkromia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="list-block list-blockxy">
+                            <ul>
+                                <li><a href="#">Ponuka nehnuteľností na Bazar.sk</a></li>
+                                <li><a href="#">Škoda auto na predaj</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col box-left">
+                        <img src="img/united.png" alt="">
+                        <div class="text">2010 - 2023 NARKS-INFOSERVIS a.s.</div>
+                    </div>
+                    <div class="col box-right">
+                        <span class="fb"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="yt"><i class="fa-brands fa-youtube"></i></span>
+                    </div>
+                </div>
+                <div class="text2">2010 - 2023 NARKS-INFOSERVIS a.s.</div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer ends -->
+    <div class="top-marker"><a href="#"><i class="fa-solid fa-angle-up"></i></a></div>
+     <!-- Modal Registrácia realitnej kancelárie -->
+     <div class="modal fade modal-chnge" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h2 class="modal-title" id="exampleModalLabel">Registrácia realitnej kancelárie</h2>     
+            
+            
+            <div class="modal-body">
+                Vkladanie a editácia inzercie sú možné len prostredníctvom realitného softvéru Realsoft. Realsoft Vám umožní správu inzercie, sledovanie výkonnosti Vašej inzercie, export na najnavštevovanejšie inzertné weby aj spravovanie doplnkových služieb z jedného miesta. Bližšie informácie Vám s radosťou poskytne naše obchodné oddelenie.
+            </div>
+            
+            <div class="modal-btn-box pt-3 pb-5">
+                <button type="button" class="btn mod-btn mod-btn-bl" data-bs-dismiss="modal">Kontaktovať obchodné oddelenie</button>
+            <button type="button" class="btn mod-btn ">Prejsť do Realsoftu</button>
+            </div>
+           
+        </div>
+        </div>
+    </div>
+    <!-- modal Prihláste sa -->
+    <div class="modal fade modal-reg" id="exampleModalreg" tabindex="-1" aria-labelledby="exampleModalLabelreg" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content cont">
+            <button type="button" class="btn-close cls" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h2 class="modal-title" id="exampleModalLabelreg">Prihláste sa</h2>                 
+            <div class="modal-body">
+               <div class = "modal-wrap con-wr">
+                <form>
+                    <div class="row">
+                         <div class="col-12">                           
+                            <div class="form-group">
+                                <input type="text" id="email1" name="email1" placeholder="Váš email" required="" class="form-control">
+                                <label>Váš email</label>
+                            </div>
+                         </div>    
+                         <div class="col-12">
+                            <div class="form-group">
+                                <input type="text" id="hes" name="hes" placeholder="Zadajte vaše heslo" required="" class="form-control">
+                                <label>Zadajte vaše heslo</label>
+                            </div>
+                        </div>
+                        <div class="pri-btn">
+                            <button class="btn pr-btn-inr">Prihlásiť</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-wrap-text"><p>Súhlasím s <a href= "#">pravidlami</a> používania Reality.sk</p></div>
+               </div>
+            </div>  
+            <div class="modal-foot pt-4 pb-2">
+               <p>Ste súkromný inzerent?<a href = ""> Registrujte sa tu.</a></p>
+               <p>Ste súkromný inzerent?<a href = "#"> Registrujte sa tu.</a></p>
+               <p>Ste súkromný inzerent?<a href = "Zabudli.html"> Zmeniť si ho môžete tu.</a></p>
+            </div>
+           
+        </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidebarbtn').click(function(){
+                $('#mySidenav, body').toggleClass('active');
+                })
+            $('.closebtn').click(function(){
+                $('#mySidenav, body').removeClass('active');    
+                })
+        })
+    </script>
+    <script>
+        $('#drop-btn').click(function(){
+        $('.menu').toggleClass('active');
+        });
+    </script>
+</body>
+</html>

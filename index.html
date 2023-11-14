@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-css/1.4.6/select2-bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/select.css">
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Reality,byty</title>
+</head>
+<body class="body">
+    
+    <!-- header starts -->
+    <header>
+        <div class="pseudo-header">
+            <div class="container">
+                <div class="pseudo-right-menu">
+                    <ul>
+                        <li><a href="realitne-kancelarie.html">Realitné kancelárie</a></li>
+                        <li><a href="#">NARKS</a></li>
+                        <li><a href="novinky.html">Magazin</a></li>
+                        <!-- <li><a ></a></li> -->
+                        <li><span class="search-ico">
+                            <form>
+                                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="text" placeholder="Číslo inzerátu" class="search-box">
+                                <!-- <button>Search button</button> -->
+                            </form>
+                        </span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends -->
+    <!-- main content and sections -->
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="main-header">
+                    <div class="logo">
+                        <img src="img/sklogo.png" alt="">
+                    </div>
+                    <div class="header-menu-right">
+                        <div class="menu-right">
+                            <ul>
+                                <li class="btn-tag"><a href="#"><span class="main-text">Uložené hľadania</span><span class="res-contet"><i class="fa-regular fa-bell"></i></span><span class="sup">0</span></a></li>
+                                <li class="btn-first"><a href="#exampleModalreg" data-bs-toggle="modal" data-bs-target="#exampleModalreg"><span><i class="fa-solid fa-plus"></i></span>Pridať inzerát</a></li>
+                                <li class="btn-first btn-second"><a href="#exampleModalreg" data-bs-toggle="modal" data-bs-target="#exampleModalreg" ><span><i class="fa-regular fa-user"></i></span>Prihlásiť</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- *************************responsive menu -->
+                    <div class="responsive-menu">
+                        <div class="btn-tag"><i class="fa-regular fa-bell"></i></span><span class="sup">0</span></a></div>
+                        <div class="menu-btn sidebarbtn" >Menu &#9776;</div>
+                        <div id="mySidenav" class="sidenav">
+                            <a href="#" class="closebtn">&times;</a>
+                            <a href="#exampleModalreg" data-bs-toggle="modal" data-bs-target="#exampleModalreg"><span>+</span>Pridať inzerát</a>
+                            <a href="#exampleModalreg" data-bs-toggle="modal" data-bs-target="#exampleModalreg" ><span><i class="fa-regular fa-user"></i></span>Prihlásiť</a>
+                            <hr>
+                            <a href="#"><span><i class="fa-regular fa-bell"></i></span> Uložené hľadania<span class="sup">0</span></a>
+                            <hr>
+                            <a href="realitne-kancelarie.html">Realitné kancelárie</a>
+                            <a href="#">NARKS</a>
+                            <a href="novinky.html">Magazin</a>
+                            <form  class="search-response">
+                                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="text" placeholder="Číslo inzerátu" class="search-box">
+                            </form>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- filter container -->
+        <section class="search-area">
+            <div class="container">
+                <div class="search-normal-screen">
+                    <div class="search-detail-wrap">
+                        <div class="search-detail">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="index.html"><span><i class="fa-solid fa-magnifying-glass"></i></span>Čo hľadáte?</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="zahranicne-inzeraty.html"><span><i class="fa-solid fa-earth-americas"></i></span> Zahraničné reality</a>
+                                </li>
+                            </ul>
+                            <div class="search-detail-form-wrap">
+                                <div class="search-detail-form">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-5 search-col">
+                                            <div class="form-group">
+                                                <label class="label">Zadajte lokalitu</label>
+                                                <input type="text" class="input-tag" id="typing-text">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 search-col">
+                                            <div class="form-group">
+                                                <label class="label">Transakcia</label>
+                                                <select class="form-select input-tag" aria-label="Default select example ">
+                                                    <option selected>Všetky transakcie</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                  </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 ">
+                                            <div class="form-group search-col2 con-wr slab-wr">
+                                                
+                                                <input type="text" id="search-slab" class="input-tag form-control search-slabs">
+                                                <label>Druh</label>
+                                                <div class="sort-tag"><i class="fa-solid fa-angle-down"></i></div>
+                                                <div id="myPopup" class="popup">
+                                                    <div class="popup-content">
+                                                      <ul class="menu-slab">
+                                                        <li>
+                                                          <span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span>
+                                                          <input type="checkbox" class="checkboxes" name="1" id="1">
+                                                          <label for="1">Byty</label>
+                                                          <ul class="submenu">
+                                                            <li><input type="checkbox" class="checkboxes" name="a" id="a"><label for="a">Ninja</label></li>
+                                                            <li><input type="checkbox" class="checkboxes" name="b" id="b"><label for="b">Ahuja</label></li>
+                                                            <li><input type="checkbox" class="checkboxes" name="c" id="c"><label for="c">rhuja</label></li>
+                                                            <li><input type="checkbox" class="checkboxes" name="d" id="a"><label for="d">Ninja</label></li>
+                                                            <li><input type="checkbox" class="checkboxes" name="e" id="b"><label for="e">Ahuja</label></li>
+                                                            <li><input type="checkbox" class="checkboxes" name="f" id="c"><label for="f">rhuja</label></li>
+                                                          </ul>
+                                                        </li>
+                                                        <li>
+                                                          <span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span><input type="checkbox" class="checkboxes" name="2" id="ab1">
+                                                          <label for="ab1">Domy</label>
+                                                          <ul class="submenu">
+                                                            <li><input type="checkbox" class="checkboxes" name="a" id="sb1"><label for="sb1">Ninja</label></li>
+                                                            <li><input type="checkbox" class="checkboxes" name="b" id="sb2"><label for="sb2">Ahuja</label></li>
+                                                            <li><input type="checkbox" class="checkboxes" name="c" id="sb3"><label for="sb3">rhuja</label></li>
+                                                          </ul>
+                                                        </li>
+                                                        <li><span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span><input type="checkbox" class="checkboxes" name="3" id="ab2">
+                                                            <label for="ab2">Chaty a chalupy</label>
+                                                        </li>
+                                                        <li><span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span><input type="checkbox" class="checkboxes" name="3" id="ab3">
+                                                            <label for="ab3">Pozemky</label>
+                                                        </li>
+                                                        <li><span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span><input type="checkbox" class="checkboxes" name="3" id="ab4">
+                                                            <label for="ab4">Priestory</label>
+                                                        </li>
+                                                        <li><span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span><input type="checkbox" class="checkboxes" name="3" id="ab5">
+                                                            <label for="ab5">Objekty</label>
+                                                        </li>
+                                                      </ul>
+                                                      <div class="rower">
+                                                        <div class="btn-first close cancel search-btn">Zrušiť vÝber</div>
+                                                        <div class="btn-first close search-btn">Porirdiť výber</div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-8 ">
+                                            <div class="form-group search-col2 numbox">
+                                                <input type="number" class="input-tag input-num-left" placeholder="Cena do">
+                                                <input type="number" class="input-tag input-num-right" placeholder="Cena od">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 ">
+                                            <div class="form-group search-col2">
+                                                <a href="#" class="input-tag btn-first search-btn">Hľadať: 67095</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="breadcrumb-wrap br-crmb-wrp row">
+                        <ul class="breadcrumb col-md-12 col-lg-7 col-7 pt-2">
+                            <li class="bread-active"><a href="index.html"><img src="img/homelogo.png" alt=""> Reality.sk</a></li>
+                            <li><img src="img/arrow_breadcrumb.svg" alt=""></li>
+                            <li><a href="#">Realitná inzercia profesionálov. Už 23 rokov na trhu.</a></li>
+                        </ul>
+                        <div class="custom-search col-md-12 col-lg-5 col-5 mb-3 mb-lg-1">
+                            <a href="#"><span><i class="fa-solid fa-magnifying-glass-plus"></i></span> Rozšírené hľadanie</a>
+                        </div>
+                    </div>
+                    <div class="hr-tag-i">
+                        <hr>
+                    </div>
+                </div>
+                <div class="search-area-responsive">
+                    <div class="con-search">
+                        <div class="modal-div" data-bs-toggle="modal" data-bs-target="#search-modal">
+                            <input type="text" class="input-response" placeholder="Čo hľadáte?">
+                            <div class="btn-search-res"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        </div>
+                        <!-- ************modal content -->
+                        <div class="modal fade" id="search-modal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                    <div class="logo">
+                                        <img src="img/sklogo.png" alt="">
+                                    </div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <div class="res-search-filter">
+                                        <ul class="nav">
+                                            <li class="nav-item active">
+                                              <a class="nav-link active" aria-current="page" href="#">Čo hľadáte?</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="zahranicne-inzeraty.html">Zahraničné reality</a>
+                                            </li>
+                                        </ul>
+                                        <div class="res-search-content">
+                                            <div class="search-detail-form">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-md-5 search-col">
+                                                        <div class="form-group">
+                                                            <label class="label">Zadajte lokalitu</label>
+                                                            <input type="text" class="input-tag" id="typing-text2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-3 search-col">
+                                                        <div class="form-group">
+                                                            <label class="label">Transakcia</label>
+                                                            <select class="form-select input-tag" aria-label="Default select example ">
+                                                                <option selected>Všetky transakcie</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                              </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-4 search-col">
+                                                        <div class="form-group con-wr slab-wr">
+                                                
+                                                            <input type="text" id="search-slab" class="input-tag form-control search-slabs">
+                                                            <label>Druh</label>
+                                                            <div class="sort-tag"><i class="fa-solid fa-angle-down"></i></div>
+                                                            <div id="myPopup" class="popup">
+                                                                <div class="popup-content">
+                                                                  <ul class="menu-slab">
+                                                                    <li>
+                                                                      <span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span>
+                                                                      <input type="checkbox" class="checkboxes" name="1" id="1">
+                                                                      <label for="1">Byty</label>
+                                                                      <ul class="submenu">
+                                                                        <li><input type="checkbox" class="checkboxes" name="a" id="a"><label for="a">Ninja</label></li>
+                                                                        <li><input type="checkbox" class="checkboxes" name="b" id="b"><label for="b">Ahuja</label></li>
+                                                                        <li><input type="checkbox" class="checkboxes" name="c" id="c"><label for="c">rhuja</label></li>
+                                                                        <li><input type="checkbox" class="checkboxes" name="d" id="a"><label for="d">Ninja</label></li>
+                                                                        <li><input type="checkbox" class="checkboxes" name="e" id="b"><label for="e">Ahuja</label></li>
+                                                                        <li><input type="checkbox" class="checkboxes" name="f" id="c"><label for="f">rhuja</label></li>
+                                                                      </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                      <span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span><input type="checkbox" class="checkboxes" name="2" id="ab1">
+                                                                      <label for="ab1">Domy</label>
+                                                                      <ul class="submenu">
+                                                                        <li><input type="checkbox" class="checkboxes" name="a" id="sb1"><label for="sb1">Ninja</label></li>
+                                                                        <li><input type="checkbox" class="checkboxes" name="b" id="sb2"><label for="sb2">Ahuja</label></li>
+                                                                        <li><input type="checkbox" class="checkboxes" name="c" id="sb3"><label for="sb3">rhuja</label></li>
+                                                                      </ul>
+                                                                    </li>
+                                                                    <li><span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span><input type="checkbox" class="checkboxes" name="3" id="ab2">
+                                                                        <label for="ab2">Chaty a chalupy</label>
+                                                                    </li>
+                                                                    <li><span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span><input type="checkbox" class="checkboxes" name="3" id="ab3">
+                                                                        <label for="ab3">Pozemky</label>
+                                                                    </li>
+                                                                    <li><span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span><input type="checkbox" class="checkboxes" name="3" id="ab4">
+                                                                        <label for="ab4">Priestory</label>
+                                                                    </li>
+                                                                    <li><span class="btn-shift"><i class="fa-solid fa-angle-right"></i></span><input type="checkbox" class="checkboxes" name="3" id="ab5">
+                                                                        <label for="ab5">Objekty</label>
+                                                                    </li>
+                                                                  </ul>
+                                                                  <div class="rower">
+                                                                    <div class="btn-first close cancel search-btn">Zrušiť vÝber</div>
+                                                                    <div class="btn-first close search-btn">Porirdiť výber</div>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-8 search-col">
+                                                        <div class="form-group numbox">
+                                                            <input type="number" class="input-tag input-num-left" placeholder="Cena do">
+                                                            <input type="number" class="input-tag input-num-right" placeholder="Cena od">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-4 search-col">
+                                                        <div class="form-group">
+                                                            <a href="#" class="input-tag btn-first search-btn">Hľadať: 67095</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <!-- ************modal content -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Showcase container -->
+        <section class="showcase-section">
+            <div class="container">
+                <h2>Inzeráty s virtuálnou prehliadkou a videom</h2>
+                <div class="row mb-4">
+                    <div class="col-md-3 col col-6">
+                        <div class="img-card-wrap">
+                            <div class="img-card">
+                                <a href="virtualne-prehliadky.html">
+                                    <img src="img/card1.webp" alt="">
+                                    <div class="img-content">
+                                        <h2>Prešovský kraj</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col col-6">
+                        <div class="img-card-wrap">
+                            <div class="img-card">
+                                <a href="virtualne-prehliadky.html">
+                                    <img src="img/card2.webp" alt="">
+                                    <div class="img-content">
+                                        <h2>Žilinský kraj</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col col-6">
+                        <div class="img-card-wrap">
+                            <div class="img-card">
+                                <a href="virtualne-prehliadky.html">
+                                    <img src="img/card3.webp" alt="">
+                                    <div class="img-content">
+                                        <h2>Košický kraj</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col col-6">
+                        <div class="img-card-wrap">
+                            <div class="img-card">
+                                <a href="virtualne-prehliadky.html">
+                                    <img src="img/card4.webp" alt="">
+                                    <div class="img-content">
+                                        <h2>Trnavský kraj</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div>
+                <div class="row"> -->
+                    <div class="col-md-3 col col-6">
+                        <div class="img-card-wrap">
+                            <div class="img-card">
+                                <a href="virtualne-prehliadky.html">
+                                    <img src="img/card5.webp" alt="">
+                                    <div class="img-content">
+                                        <h2>Nitriansky kraj</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col col-6">
+                        <div class="img-card-wrap">
+                            <div class="img-card">
+                                <a href="virtualne-prehliadky.html">
+                                    <img src="img/card6.webp" alt="">
+                                    <div class="img-content">
+                                        <h2>Bratislavský kraj</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col col-6">
+                        <div class="img-card-wrap">
+                            <div class="img-card">
+                                <a href="virtualne-prehliadky.html">
+                                    <img src="img/card7.webp" alt="">
+                                    <div class="img-content">
+                                        <h2>Banskobystrický kraj</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col col-6">
+                        <div class="img-card-wrap">
+                            <div class="img-card">
+                                <a href="virtualne-prehliadky.html">
+                                    <img src="img/card8.webp" alt="">
+                                    <div class="img-content">
+                                        <h2>Trenčiansky kraj</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cards section container -->
+        <section class="card-section">
+            <div class="container">
+                <div class="heading-row">
+                    <h2>Najnovšie</h2>
+                    <div class="custom-search">
+                        <a href="#">Zobraziť všetky</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="zobra-listing.html">
+                            <div class="card-zobra">
+                                <div class="card-zobra-img">
+                                    <img src="img/65Gq4ZjFj_fss.jpg" alt="">
+                                </div>
+                                <div class="card-zobra-content">
+                                    <div class="card-title">
+                                        Priestranný nebytový priestor v novostavbe
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="card-content-left"><span><i class="fa-solid fa-location-dot"></i></span> Galanta (sk)</div>
+                                        <div class="card-content-right">650 €/mesiac</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="zobra-listing.html">
+                            <div class="card-zobra">
+                                <div class="card-zobra-img">
+                                    <img src="img/slidecard2.jpg" alt="">
+                                </div>
+                                <div class="card-zobra-content">
+                                    <div class="card-title">
+                                        Priestranný nebytový priestor v novostavbe
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="card-content-left"><span><i class="fa-solid fa-location-dot"></i></span> Galanta (sk)</div>
+                                        <div class="card-content-right">650 €/mesiac</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="zobra-listing.html">
+                            <div class="card-zobra">
+                                <div class="card-zobra-img">
+                                    <img src="img/slidecard3.jpg" alt="">
+                                </div>
+                                <div class="card-zobra-content">
+                                    <div class="card-title">
+                                        Priestranný nebytový priestor v novostavbe
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="card-content-left"><span><i class="fa-solid fa-location-dot"></i></span> Galanta (sk)</div>
+                                        <div class="card-content-right">650 €/mesiac</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="zobra-listing.html">
+                            <div class="card-zobra">
+                                <div class="card-zobra-img">
+                                    <img src="img/slidecard4.jpg" alt="">
+                                </div>
+                                <div class="card-zobra-content">
+                                    <div class="card-title">
+                                        Priestranný nebytový priestor v novostavbe
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="card-content-left"><span><i class="fa-solid fa-location-dot"></i></span> Galanta (sk)</div>
+                                        <div class="card-content-right float-right">650 €/mesiac</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="white-section">
+            <div class="container">
+                <div class="ad-block">
+                    <h2>Top projekty a ponuky</h2>
+                <div class="ad-section">
+                    
+                    <div class="ad-card">
+                        <div class="ad-card-img">
+                            <img src="img/0_7505.jpeg" alt="">
+                        </div>
+                        <div class="ad-card-content">
+                            Nehnuteľnosti na predaj a prenájom
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="des-listing-box">
+                    <div class="des-title">
+                        <h2>Realitná inzercia profesionálov</h2>
+                        <div class="pseudo-title">Už 23 rokov na trhu</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 col-lg-2">
+                            <div class="ico-card">
+                                <div class="ico-card-img">
+                                    <img src="img/svg1.png" alt="">
+                                </div>
+                                <div class="ico-card-body">
+                                    <a href="virtualne-prehliadky.html"><h2>Byty</h2></a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">1 izbový byt</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">2 izbový byt</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">3 izbový byt</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">4 izbový byt</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-2">
+                            <div class="ico-card">
+                                <div class="ico-card-img">
+                                    <img src="img/home2.png" alt="">
+                                </div>
+                                <div class="ico-card-body">
+                                    <a href="virtualne-prehliadky.html"><h2>Domy</h2></a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Rodinný dom</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Vidiecky dom</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Farmárska usadlosť</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-2">
+                            <div class="ico-card">
+                                <div class="ico-card-img">
+                                    <img src="img/home3.png" alt="">
+                                </div>
+                                <div class="ico-card-body">
+                                    <a href="virtualne-prehliadky.html"><h2>Pozemky</h2></a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Pozemok pre rodinné domy</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Záhrada</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Orná pôda</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Vinica, chmelnica</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-2">
+                            <div class="ico-card">
+                                <div class="ico-card-img">
+                                    <img src="img/home4.png" alt="">
+                                </div>
+                                <div class="ico-card-body">
+                                    <a href="virtualne-prehliadky.html"><h2>Chaty a chalupy</h2></a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Chata, drevenica, zrub</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Chalupa, rekreačný domček</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-2">
+                            <div class="ico-card">
+                                <div class="ico-card-img">
+                                    <img src="img/home5.png" alt="">
+                                </div>
+                                <div class="ico-card-body">
+                                    <a href="virtualne-prehliadky.html"><h2>Garáže a parkovacie miesta</h2></a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Parkovacie miesta, parkoviská</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Garáže</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-2">
+                            <div class="ico-card">
+                                <div class="ico-card-img">
+                                    <img src="img/home6.png" alt="">
+                                </div>
+                                <div class="ico-card-body">
+                                    <a href="virtualne-prehliadky.html"><h2>Priestory</h2></a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Kancelárie, administratívne priestory</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Obchodné priestory</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Reštauračné priestory</a>
+                                    <a href="virtualne-prehliadky.html" class="ico-link">Priestor pre sklad</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h2 class="card-heading">Najnovšie články</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="right-card">
+                            <div class="right-card-img">
+                                <a href="#"><img src="img/img.jpg" alt=""></a>
+                                <div class="img-tag">
+                                    <div class="tag-top">13</div>
+                                    <div class="tag-bottom">Feb</div>
+                                </div>
+                            </div>
+                            <div class="right-card-content">
+                                <div class="pseudo-right-card-title">BÝVANIE A REKREÁCIA</div>
+                                <div class="right-card-title">
+                                    <a href="#">Tajomstvá nehnuteľností #14: Aj rodinné domy môžu mať genetické poruchy</a>
+                                </div>
+                                <div class="right-card-text">
+                                    Pri výstavbe rodinného domu sa môže stať všeličo a niektoré chyby dokážu naozaj nahnevať. 
+                                    Krivé steny, prefukujúce okná, problémy s akustikou. To všetko, a ešte omnoho viac, je stále 
+                                    nič oproti zanedbanému IGP. Čo táto skratka znamená a prečo ju radíme takpovediac ku „genetickým“ 
+                                    rizikovým faktorom si povieme v dnešnom článku.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="left-card">
+                            <div class="left-card-img">
+                                <a href="Odborné analýzy.html"><img src="img/lady.jpg" alt=""></a>
+                                <div class="img-tag">
+                                    <div class="tag-top">13</div>
+                                    <div class="tag-bottom">Feb</div>
+                                </div>
+                            </div>
+                            <div class="left-card-content">
+                                <div class="left-content-title"><a href="#">Balkón v paneláku: Inšpirácie na šikovné riešenia príjemného priestoru v exteriéri</a></div>
+                                <div class="left-content-text">
+                                    
+                            Teplomer zatiaľ ukazuje nízke hodnoty, ale keď začne slniečko viac hriať, 
+                            treba byť pripravený otvoriť mu náruč. Ak máte balkón v byte, ste jedným z 
+                            tých šťastných, ktorí si môžu užívať svoj súkromný priestor pod holým nebom. 
+                            Chcete sa inšpirovať, ako? Prinášame vám niekoľko šikovných balkónových riešení 
+                            pre malé priestory.
+                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-card">
+                            <div class="left-card-img">
+                                <a href="Odborné analýzy.html"><img src="img/adcard2.jpg" alt=""></a>
+                                <div class="img-tag">
+                                    <div class="tag-top">13</div>
+                                    <div class="tag-bottom">Feb</div>
+                                </div>
+                            </div>
+                            <div class="left-card-content">
+                                <div class="left-content-title"><a href="#">Balkón v paneláku: Inšpirácie na šikovné riešenia príjemného priestoru v exteriéri</a></div>
+                                <div class="left-content-text">
+                                    
+                            Teplomer zatiaľ ukazuje nízke hodnoty, ale keď začne slniečko viac hriať, 
+                            treba byť pripravený otvoriť mu náruč. Ak máte balkón v byte, ste jedným z 
+                            tých šťastných, ktorí si môžu užívať svoj súkromný priestor pod holým nebom. 
+                            Chcete sa inšpirovať, ako? Prinášame vám niekoľko šikovných balkónových riešení 
+                            pre malé priestory.
+                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-card">
+                            <div class="left-card-img">
+                                <a href="Odborné analýzy.html"><img src="img/adcard3.jpg" alt=""></a>
+                                <div class="img-tag">
+                                    <div class="tag-top">13</div>
+                                    <div class="tag-bottom">Feb</div>
+                                </div>
+                            </div>
+                            <div class="left-card-content">
+                                <div class="left-content-title"><a href="#">Balkón v paneláku: Inšpirácie na šikovné riešenia príjemného priestoru v exteriéri</a></div>
+                                <div class="left-content-text">
+                                    
+                            Teplomer zatiaľ ukazuje nízke hodnoty, ale keď začne slniečko viac hriať, 
+                            treba byť pripravený otvoriť mu náruč. Ak máte balkón v byte, ste jedným z 
+                            tých šťastných, ktorí si môžu užívať svoj súkromný priestor pod holým nebom. 
+                            Chcete sa inšpirovať, ako? Prinášame vám niekoľko šikovných balkónových riešení 
+                            pre malé priestory.
+                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-list">
+            <div class="container">
+                <div class="footerlist-normal">
+                    <div class="footer-list-title">Užitočné odkazy</div>
+                    <div class="row">
+                        <div class="col-6 col-lg-3">
+                        <ul class="footer-list-anchor">
+                            <li><a href="#">Chaty na predaj</a></li>
+                            <li><a href="#">Domy na predaj</a></li>
+                            <li><a href="#">Pozemky na predaj</a></li>
+                            <li><a href="#">Predaj bytov</a></li>
+                            <li><a href="#">Predaj nehnuteľnosti</a></li>
+                            <li><a href="#">Dražba</a></li>
+                            <li><a href="#">Chalupy na predaj</a></li>
+                            <li><a href="#">Súkromná inzercia nehnuteľností</a></li>
+                        </ul> 
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <ul class="footer-list-anchor">
+                                <li><a href="#">Reality v Bratislave</a></li>
+                                <li><a href="#">Reality v Košiciach</a></li>
+                                <li><a href="#">Nehnuteľnosti v Čadci</a></li>
+                                <li><a href="#">Reality v Nitre</a></li>
+                                <li><a href="#">Nehnuteľnosti v Prešove</a></li>
+                                <li><a href="#">Reality v Ružomberku</a></li>
+                                <li><a href="#">Nehnuteľnosti v Žiline</a></li>
+                                <li><a href="#">Reality Banská Bystrica</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <ul class="footer-list-anchor">
+                                <li><a href="#">1 izbový byt Bratislava</a></li>
+                                <li><a href="#">1 izbový byt Trnava</a></li>
+                                <li><a href="#">1 izbový byt Košice</a></li>
+                                <li><a href="#">1 izbový byt Nitra</a></li>
+                                <li><a href="#">2 izbový byt Bratislava</a></li>
+                                <li><a href="#">2 izbový byt Trnava</a></li>
+                                <li><a href="#">2 izbový byt Košice</a></li>
+                                <li><a href="#">2 izbový byt Nitra</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <ul class="footer-list-anchor">
+                                <li><a href="#">Byty v pôvodnom stave na predaj</a></li>
+                                <li><a href="#">Novostavby Žilinský kraj</a></li>
+                                <li><a href="#">Novostavby v Bratislave</a></li>
+                                <li><a href="#">3 izbový byt v Nitre</a></li>
+                                <li><a href="#">3 izbový byt v Poprade</a></li>
+                                <li><a href="#">3 izbový byt v Martine</a></li>
+                                <li><a href="#">2 izbový byt v Banskej Bystrici na predaj</a></li>
+                                <li><a href="#">3 izbový byt v Trenčíne - novostavba</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerlist-responsive">
+                    <div class="tabs">
+                        <div class="tab">
+                            <input type="checkbox" class="chck2" id="chck3">
+                            <label class="tab-label" for="chck3">
+                                <div class="footer-list-title">Užitočné odkazy</div>
+                            </label>
+                            <div class="tab-content">
+                                <div class="row">
+                                    <div class="col-6 col-lg-3">
+                                    <ul class="footer-list-anchor">
+                                        <li><a href="#">Chaty na predaj</a></li>
+                                        <li><a href="#">Domy na predaj</a></li>
+                                        <li><a href="#">Pozemky na predaj</a></li>
+                                        <li><a href="#">Predaj bytov</a></li>
+                                        <li><a href="#">Predaj nehnuteľnosti</a></li>
+                                        <li><a href="#">Dražba</a></li>
+                                        <li><a href="#">Chalupy na predaj</a></li>
+                                        <li><a href="#">Súkromná inzercia nehnuteľností</a></li>
+                                    </ul> 
+                                    </div>
+                                    <div class="col-6 col-lg-3">
+                                        <ul class="footer-list-anchor">
+                                            <li><a href="#">Reality v Bratislave</a></li>
+                                            <li><a href="#">Reality v Košiciach</a></li>
+                                            <li><a href="#">Nehnuteľnosti v Čadci</a></li>
+                                            <li><a href="#">Reality v Nitre</a></li>
+                                            <li><a href="#">Nehnuteľnosti v Prešove</a></li>
+                                            <li><a href="#">Reality v Ružomberku</a></li>
+                                            <li><a href="#">Nehnuteľnosti v Žiline</a></li>
+                                            <li><a href="#">Reality Banská Bystrica</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-3">
+                                        <ul class="footer-list-anchor">
+                                            <li><a href="#">1 izbový byt Bratislava</a></li>
+                                            <li><a href="#">1 izbový byt Trnava</a></li>
+                                            <li><a href="#">1 izbový byt Košice</a></li>
+                                            <li><a href="#">1 izbový byt Nitra</a></li>
+                                            <li><a href="#">2 izbový byt Bratislava</a></li>
+                                            <li><a href="#">2 izbový byt Trnava</a></li>
+                                            <li><a href="#">2 izbový byt Košice</a></li>
+                                            <li><a href="#">2 izbový byt Nitra</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-3">
+                                        <ul class="footer-list-anchor">
+                                            <li><a href="#">Byty v pôvodnom stave na predaj</a></li>
+                                            <li><a href="#">Novostavby Žilinský kraj</a></li>
+                                            <li><a href="#">Novostavby v Bratislave</a></li>
+                                            <li><a href="#">3 izbový byt v Nitre</a></li>
+                                            <li><a href="#">3 izbový byt v Poprade</a></li>
+                                            <li><a href="#">3 izbový byt v Martine</a></li>
+                                            <li><a href="#">2 izbový byt v Banskej Bystrici na predaj</a></li>
+                                            <li><a href="#">3 izbový byt v Trenčíne - novostavba</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main content and sections -->
+    <!-- footer starts -->
+    <footer class="footer">
+        <section class="footer-top">
+            <div class="container">
+                <div class="footer-normal">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-3 col-xs-12 list-wrap-w">
+                            <div class="list-wrap">
+                                <div class="list-heading">Inzercia na Reality.sk</div>
+                                <ul>
+                                    <li><a href="Pravidlá.html">Podmienky používania</a></li>
+                                    <li><a href="img/download.pdf">Cookies</a></li>
+                                    <li><a href="zasady_ochrany.html">GDPR</a></li>
+                                    <li><a href="cennik.html">Cennik</a></li>
+                                    <li><a href="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Registrácia realitnej kancelárie</a></li>
+                                    <li><a href="registracia.html">Registrácia súkromní inzerenti</a></li>
+                                    <li><a href="#">Nastavenie súkromia</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2 col-sm-12 list-wrap-w">
+                            <div class="list-wrap">
+                                <div class="list-heading">Kontaktné údaje</div>
+                                <ul>
+                                    <li><a href="kontact.html">Kontakt</a></li>
+                                    <li><a href="https://www.narks.sk/">Info o NARKS</a></li>
+                                    <li><a href="https://www.narks.sk/clenovia/realitne-kancelarie/">Členovia NARKS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2 col-sm-12 list-wrap-w">
+                            <div class="list-wrap">
+                                <div class="list-heading">Poradne</div>
+                                <ul>
+                                    <li><a href="pravna-poradna.html">Právna poradňa</a></li>
+                                    <li><a href="Danova-poradna.html">Daňová poradňa</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-responsive">
+                    <div class="row">
+                        <div class="col-6 col-md-4 col-lg-3 list-wrap-r">
+                            <div class="tabs">
+                                <div class="tab">
+                                    <input type="checkbox" class="chck2" id="chck2">
+                                    <label class="tab-label" for="chck2">
+                                        Inzercia na Reality.sk
+                                    </label>
+                                    <div class="tab-content">
+                                        <ul>
+                                            <li><a href="Pravidlá.html">Podmienky používania</a></li>
+                                            <li><a href="img/download.pdf">Cookies</a></li>
+                                            <li><a href="zasady_ochrany.html">GDPR</a></li>
+                                            <li><a href="cennik.html">Cennik</a></li>
+                                            <li><a href="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Registrácia realitnej kancelárie</a></li>
+                                            <li><a href="registracia.html">Registrácia súkromní inzerenti</a></li>
+                                            <li><a href="#">Nastavenie súkromia</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 list-wrap-r">
+                            <div class="tabs">
+                                <div class="tab">
+                                    <input type="checkbox" class="chck2" id="chck3">
+                                    <label class="tab-label" for="chck3">
+                                        Kontaktné údaje
+                                    </label>
+                                    <div class="tab-content">
+                                        <ul>
+                                            <li><a href="kontact.html">Kontakt</a></li>
+                                            <li><a href="https://www.narks.sk/">Info o NARKS</a></li>
+                                            <li><a href="https://www.narks.sk/clenovia/realitne-kancelarie/">Členovia NARKS</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2 list-wrap-r">
+                            <div class="tabs">
+                                <div class="tab">
+                                    <input type="checkbox" class="chck2" id="chck4">
+                                    <label class="tab-label" for="chck4">
+                                        Poradne
+                                    </label>
+                                    <div class="tab-content list-wr">
+                                        <ul>
+                                            <li><a href="pravna-poradna.html">Právna poradňa</a></li>
+                                            <li><a href="Danova-poradna.html">Daňová poradňa</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-block-index list-block-index-main">
+                    <div class="hr"><hr></div>
+                <div class="row">
+                    <div class="col-6 col-lg-3">
+                        <div class="list-block">
+                            <ul>
+                                <li><a href="#">Športové výsledky online</a></li>
+                                <li><a href="#">Ocenenie nehnuteľností</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="list-block">
+                            <ul>
+                                <li><a href="#">Lacné chalupy na predaj</a></li>
+                                <li><a href="#">Azet.sk</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="list-block">
+                            <ul>
+                                <li><a href="#">Recenzie IT zariadení</a></li>
+                                <li><a href="#">Trhové reporty</a></li>
+                                <li class="list-res"><a href="#">Nastavenie súkromia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="list-block list-blockxy">
+                            <ul>
+                                <li><a href="#">Ponuka nehnuteľností na Bazar.sk</a></li>
+                                <li><a href="#">Škoda auto na predaj</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col box-left">
+                        <img src="img/united.png" alt="">
+                        <div class="text">2010 - 2023 NARKS-INFOSERVIS a.s.</div>
+                    </div>
+                    <div class="col box-right">
+                        <span class="fb"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="yt"><i class="fa-brands fa-youtube"></i></span>
+                    </div>
+                </div>
+                <div class="text2">2010 - 2023 NARKS-INFOSERVIS a.s.</div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer ends -->
+    <div class="top-marker"><a href="#"><i class="fa-solid fa-angle-up"></i></a></div>
+     <!-- Modal Registrácia realitnej kancelárie -->
+     <div class="modal fade modal-chnge" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h2 class="modal-title" id="exampleModalLabel">Registrácia realitnej kancelárie</h2>     
+            
+            
+            <div class="modal-body">
+                Vkladanie a editácia inzercie sú možné len prostredníctvom realitného softvéru Realsoft. Realsoft Vám umožní správu inzercie, sledovanie výkonnosti Vašej inzercie, export na najnavštevovanejšie inzertné weby aj spravovanie doplnkových služieb z jedného miesta. Bližšie informácie Vám s radosťou poskytne naše obchodné oddelenie.
+            </div>
+            
+            <div class="modal-btn-box pt-3 pb-5">
+                <button type="button" class="btn mod-btn mod-btn-bl" data-bs-dismiss="modal">Kontaktovať obchodné oddelenie</button>
+            <button type="button" class="btn mod-btn ">Prejsť do Realsoftu</button>
+            </div>
+           
+        </div>
+        </div>
+    </div>
+    <!-- modal Prihláste sa -->
+    <div class="modal fade modal-reg" id="exampleModalreg" tabindex="-1" aria-labelledby="exampleModalLabelreg" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content cont">
+            <button type="button" class="btn-close cls" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h2 class="modal-title" id="exampleModalLabelreg">Prihláste sa</h2>                 
+            <div class="modal-body">
+               <div class = "modal-wrap con-wr">
+                <form>
+                    <div class="row">
+                         <div class="col-12">                           
+                            <div class="form-group">
+                                <input type="text" id="email1" name="email1" placeholder="Váš email" required="" class="form-control">
+                                <label>Váš email</label>
+                            </div>
+                         </div>    
+                         <div class="col-12">
+                            <div class="form-group">
+                                <input type="text" id="hes" name="hes" placeholder="Zadajte vaše heslo" required="" class="form-control">
+                                <label>Zadajte vaše heslo</label>
+                            </div>
+                        </div>
+                        <div class="pri-btn">
+                            <button class="btn pr-btn-inr">Prihlásiť</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-wrap-text"><p>Súhlasím s <a href= "#">pravidlami</a> používania Reality.sk</p></div>
+               </div>
+            </div>  
+            <div class="modal-foot pt-4 pb-2">
+               <p>Ste súkromný inzerent?<a href = ""> Registrujte sa tu.</a></p>
+               <p>Ste súkromný inzerent?<a href = "#"> Registrujte sa tu.</a></p>
+               <p>Ste súkromný inzerent?<a href = "Zabudli.html"> Zmeniť si ho môžete tu.</a></p>
+            </div>
+           
+        </div>
+        </div>
+    </div>
+
+    <script src="typewriter.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script>
+        new TypeWriter('#typing-text', ['Zadajte obec, ulicu, okres, kraj', 'Košice Dargovských hrdinov', 'Bratislava Staré Mesto','Bratislava Prievozská','Poštová Žilina'],{
+                holdOnceWritten: 1000,
+                holdOnceDeleted: 1000
+            });
+    </script>
+    <script>
+        new TypeWriter('#typing-text2', ['Zadajte obec, ulicu, okres, kraj', 'Košice Dargovských hrdinov', 'Bratislava Staré Mesto','Bratislava Prievozská','Poštová Žilina'],{
+                holdOnceWritten: 1000,
+                holdOnceDeleted: 1000
+            });
+    </script>
+    <script>
+      $(function() { // Dropdown toggle
+        $('.dropdown-toggle').click(function() { $(this).next('.dropdown').slideToggle();
+        });
+
+        $(document).click(function(e) 
+        { 
+        var target = e.target; 
+        if (!$(target).is('.dropdown-toggle') && !$(target).parents().is('.dropdown-toggle')) 
+        //{ $('.dropdown').hide(); }
+        { $('.dropdown').slideUp(); }
+        });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.sidebarbtn').click(function(){
+                $('#mySidenav, body').toggleClass('active');
+                })
+            $('.closebtn').click(function(){
+                $('#mySidenav, body').removeClass('active');    
+                })
+        })
+    </script>
+    <script>
+        $(document).ready(function(){
+          $(".search-slabs").click(function(){
+            $(".popup").fadeIn();
+          });
+
+          $(".close").click(function(){
+            $(".popup").fadeOut();
+          });
+          $(document).mouseup(function(event){
+            var popup = $("popup .popup-content");
+            if (!popup.is(event.target) && popup.has(event.target).length === 0) {
+              $(".popup").fadeOut();
+            }
+          });
+        });
+            $(document).ready(function(){
+              $(".btn-shift").click(function(){
+                $(this).toggleClass("toggle");
+                $(this).siblings(".submenu").toggleClass("active");
+              });
+            });
+            
+      </script>
+      <script>
+        $(document).ready(function(){
+          $(".checkboxes").click(function(){
+            var count = $(".checkboxes:checked").length;
+            if (count == 1 || count == 0) {
+              var label = $(".checkboxes:checked").next("label").text();
+              $("#search-slab").val(label)
+            } 
+            else {
+              $("#search-slab").val(" Zyonitch : " + count);
+            }
+          });
+        });
+      </script>
+</body>
+</html>

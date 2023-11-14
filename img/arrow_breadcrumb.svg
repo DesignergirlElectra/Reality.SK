@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+     sodipodi:docname="arrow_breadcrumb.svg" version="1.1"
+     inkscape:version="0.91 r13725" viewBox="0 0 24 24">
+    <defs>
+        <path id="arrow_breadcrumb-a"
+              d="m20.707 11.293l-6.002-6c-0.391-0.391-1.023-0.391-1.414 0s-0.391 1.024 0 1.414l4.295 4.293h-13.586c-0.55 0-1 0.45-1 1s0.45 1 1 1h13.586l-4.295 4.293c-0.391 0.39-0.391 1.023 0 1.414 0.195 0.195 0.451 0.293 0.707 0.293s0.512-0.098 0.707-0.293l6.002-6c0.187-0.187 0.293-0.442 0.293-0.707s-0.106-0.52-0.293-0.707"/>
+    </defs>
+    <use fill-rule="evenodd" xlink:href="#arrow_breadcrumb-a" transform="translate(0,1.25e-4)" height="100%"
+         width="100%" y="0" x="0" fill="#333333"/>
+</svg>
